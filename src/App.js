@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +12,7 @@ function App() {
         <p>
           Mingo Boxing
         </p>
+        <Navbar></Navbar>        
         <a
           className="App-link"
           href="https://github.com/juanmingo/mingoboxing-delgado"
